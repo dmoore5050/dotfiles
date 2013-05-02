@@ -5,6 +5,8 @@
 * Theme - Soda
 * CTags
 * git 
+* SublimeREPL
+* SublimeLinter
 * Emmet ( + pyV8) (learning)
 * SCSS (learning) ( + snippets)
 * RSpec (learning) ( + snippets)
