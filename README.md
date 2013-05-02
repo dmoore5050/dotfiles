@@ -1,12 +1,12 @@
 #Installed Packages
 
 * Package Control
-* Emmet ( + pyV8) (learning)
 * HTML Snippets
 * Theme - Soda
-* CTags (learning)
+* CTags
+* git 
+* Emmet ( + pyV8) (learning)
 * SCSS (learning) ( + snippets)
 * RSpec (learning) ( + snippets)
-* git
 * Cucumber (learning)
 
