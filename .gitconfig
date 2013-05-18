@@ -1,0 +1,7 @@
+[user]
+	name = xxxxxxx
+	email = xxxxxxx
+[core]
+	editor = subl -n -w
+[credential]
+	helper = osxkeychain
