@@ -22,5 +22,5 @@
 #command line commands to practice
 
 * initialize ctags in project = $ ctags -R -f .tags
-* open file or directory in sublime = $ subl <filename> or subl .
+* ctr + r = recursive search
 
