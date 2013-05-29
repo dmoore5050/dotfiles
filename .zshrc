@@ -1,16 +1,20 @@
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 alias rcal='ruby ~/desktop/NSS/NSS_section_2/ruby_cal/cal.rb'
-alias saison_builder='ruby ~/desktop/NSS/NSS_section_2/saison.rb'
-alias sb='ruby ~/desktop/NSS/NSS_section_2/saison.rb'
-alias zshconfig="subl ~/.zshrc"
-alias ohmyzsh="subl ~/.oh-my-zsh"
+alias saison_builder='ruby ~/desktop/NSS/NSS_section_2/saison_app/saisonbuilder'
+alias sb='ruby ~/desktop/NSS/NSS_section_2/saison_app/saisonbuilder'
+alias zshconfig='subl ~/.zshrc'
+alias ohmyzsh='subl ~/.oh-my-zsh'
+alias ctag ='ctags -R -f .tags'
 
 alias gap='git add -p'
 alias ga.='git add .'
+alias ga='git add'
+alias grm='git rm'
 alias push='git push origin master'
 alias pull='git pull origin master'
 alias commit='git commit -m'
+alias unstage='git reset HEAD'
 
 # RVM
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
