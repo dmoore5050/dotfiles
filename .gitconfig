@@ -1,7 +1,20 @@
 [user]
-	name = xxxxxxx
-	email = xxxxxxx
+  name = <name>
+  email = <email>
 [core]
-	editor = subl -n -w
+  editor = subl -n -w
+  excludesfile = /Users/dustinmoore/.gitignore
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
+[merge]
+  tool = extMerge
+[mergetool "extMerge"]
+  cmd = extMerge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+  trustExitCode = false
+[diff]
+  external = extDiff
+[alias]
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=format:\"%C(yellow)%h %C(white)%d%Creset %s %Cblue(%an) %Cred%cr\" --abbrev-commit --all
+[push]
+  default = simple

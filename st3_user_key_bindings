@@ -1,0 +1,8 @@
+[
+{ "keys": ["super+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} },
+{ "keys": ["super+v"], "command": "paste_and_indent" },
+{ "keys": ["super+shift+v"], "command": "paste" },
+{ "keys": ["super+shift+t"], "command": "new_file"},
+{ "keys": ["super+w"], "command": "find_under_expand"},
+{ "keys": ["super+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} }
+]
