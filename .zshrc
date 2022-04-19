@@ -89,9 +89,6 @@ colors
 setopt prompt_subst
 
 # Prompt
-
-# prompt with ruby version
-# rbenv version | sed -e 's/ .*//'
 __rbenv_ps1 ()
 {
   rbenv_ruby_version=`rbenv version | sed -e 's/ .*//'`
@@ -104,7 +101,7 @@ PROMPT='%{$fg_no_bold['yellow']%}
 %~
 ${smiley}  %{$reset_color%}'
 
-RPROMPT='%{$fg[red]%} $(__rbenv_ps1)$(~/bin/git-cwd-info)%{$reset_color%}'
+RPROMPT='%{$fg[red]%} $(__rbenv_ps1) $(~/bin/git-cwd-info)%{$reset_color%}'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
